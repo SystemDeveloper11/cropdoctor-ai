@@ -1,0 +1,219 @@
+[02-Oct-2025 02:45:59 Europe/Berlin] === ANALYZE.PHP STARTED ===
+[02-Oct-2025 02:45:59 Europe/Berlin] POST data: Array
+(
+    [user_id] => 3
+)
+
+[02-Oct-2025 02:45:59 Europe/Berlin] FILES data: Array
+(
+    [plant_image] => Array
+        (
+            [name] => yy.jpg
+            [full_path] => yy.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB41D.tmp
+            [error] => 0
+            [size] => 29262
+        )
+
+)
+
+[02-Oct-2025 02:45:59 Europe/Berlin] File details - Name: yy.jpg, Size: 29262, Error: 0, Type: image/jpeg
+[02-Oct-2025 02:45:59 Europe/Berlin] Detected MIME type: image/jpeg
+[02-Oct-2025 02:45:59 Europe/Berlin] Image info: Array
+(
+    [0] => 327
+    [1] => 292
+    [2] => 2
+    [3] => width="327" height="292"
+    [bits] => 8
+    [channels] => 3
+    [mime] => image/jpeg
+)
+
+[02-Oct-2025 02:45:59 Europe/Berlin] Attempting to move file to: C:\xampp\htdocs\apro\agritech\api/../assets/images/uploads/68ddcb4717888_yy.jpg
+[02-Oct-2025 02:45:59 Europe/Berlin] File successfully moved to: C:\xampp\htdocs\apro\agritech\api/../assets/images/uploads/68ddcb4717888_yy.jpg
+[02-Oct-2025 02:45:59 Europe/Berlin] No local match found, proceeding to API
+[02-Oct-2025 02:46:00 Europe/Berlin] API Response - HTTP Code: 401, cURL Error: 
+[02-Oct-2025 02:46:00 Europe/Berlin] API HTTP Error: 401 - Response: The specified api key not found.
+[02-Oct-2025 02:46:00 Europe/Berlin] API analysis failed or returned empty result
+[02-Oct-2025 02:46:00 Europe/Berlin] Saving to database: Analysis failed (confidence: 0)
+[02-Oct-2025 02:46:01 Europe/Berlin] Diagnosis saved successfully with ID: 10
+[02-Oct-2025 02:46:01 Europe/Berlin] === ANALYZE.PHP STARTED ===
+[02-Oct-2025 02:46:01 Europe/Berlin] POST data: Array
+(
+)
+
+[02-Oct-2025 02:46:01 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Oct-2025 02:46:01 Europe/Berlin] ERROR: No plant_image uploaded or temporary file missing
+[02-Oct-2025 02:52:39 Europe/Berlin] === COMPREHENSIVE DEBUG START ===
+[02-Oct-2025 02:52:39 Europe/Berlin] Time: 2025-10-02 02:52:39
+[02-Oct-2025 02:52:39 Europe/Berlin] PHP Version: 8.2.12
+[02-Oct-2025 02:52:39 Europe/Berlin] Request Method: POST
+[02-Oct-2025 02:52:39 Europe/Berlin] Content Type: multipart/form-data; boundary=----WebKitFormBoundarylPmNmqQnFI1U6oGP
+[02-Oct-2025 02:52:39 Europe/Berlin] === _FILES array ===
+[02-Oct-2025 02:52:39 Europe/Berlin] Array
+(
+    [plant_image] => Array
+        (
+            [name] => yy.jpg
+            [full_path] => yy.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpD12E.tmp
+            [error] => 0
+            [size] => 29262
+        )
+
+)
+
+[02-Oct-2025 02:52:39 Europe/Berlin] === _POST array ===
+[02-Oct-2025 02:52:39 Europe/Berlin] Array
+(
+    [user_id] => 3
+)
+
+[02-Oct-2025 02:52:39 Europe/Berlin] === _SESSION array ===
+[02-Oct-2025 02:52:39 Europe/Berlin] Array
+(
+    [user_id] => 3
+    [username] => johndoegaerg
+    [email] => mkulima21@gmail.com
+    [role] => farmer
+    [logged_in] => 1
+    [theme] => dark
+)
+
+[02-Oct-2025 02:52:39 Europe/Berlin] === _SERVER relevant entries ===
+[02-Oct-2025 02:52:39 Europe/Berlin] Array
+(
+    [CONTENT_TYPE] => multipart/form-data; boundary=----WebKitFormBoundarylPmNmqQnFI1U6oGP
+    [CONTENT_LENGTH] => 29544
+    [REQUEST_METHOD] => POST
+    [HTTP_REFERER] => http://localhost/apro/agritech/pages/upload.php
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+)
+
+[02-Oct-2025 02:52:39 Europe/Berlin] Available file inputs: plant_image
+[02-Oct-2025 02:52:39 Europe/Berlin] === File Analysis ===
+[02-Oct-2025 02:52:39 Europe/Berlin] File name: yy.jpg
+[02-Oct-2025 02:52:39 Europe/Berlin] File type: image/jpeg
+[02-Oct-2025 02:52:39 Europe/Berlin] File size: 29262
+[02-Oct-2025 02:52:39 Europe/Berlin] Temp name: C:\xampp\tmp\phpD12E.tmp
+[02-Oct-2025 02:52:39 Europe/Berlin] Error code: 0
+[02-Oct-2025 02:52:39 Europe/Berlin] Detected MIME type: image/jpeg
+[02-Oct-2025 02:52:39 Europe/Berlin] Image info: Array
+(
+    [0] => 327
+    [1] => 292
+    [2] => 2
+    [3] => width="327" height="292"
+    [bits] => 8
+    [channels] => 3
+    [mime] => image/jpeg
+)
+
+[02-Oct-2025 02:52:39 Europe/Berlin] Moving file from: C:\xampp\tmp\phpD12E.tmp to: C:\xampp\htdocs\apro\agritech\api/../assets/images/uploads/68ddccd7d1891_yy.jpg
+[02-Oct-2025 02:52:40 Europe/Berlin] SUCCESS: File moved successfully
+[02-Oct-2025 02:52:40 Europe/Berlin] Final file exists: yes
+[02-Oct-2025 02:52:40 Europe/Berlin] Final file size: 29262 bytes
+[02-Oct-2025 02:52:40 Europe/Berlin] Final file readable: yes
+[02-Oct-2025 02:52:40 Europe/Berlin] === COMPREHENSIVE DEBUG END ===
+[02-Oct-2025 02:52:40 Europe/Berlin] === COMPREHENSIVE DEBUG START ===
+[02-Oct-2025 02:52:40 Europe/Berlin] Time: 2025-10-02 02:52:40
+[02-Oct-2025 02:52:40 Europe/Berlin] PHP Version: 8.2.12
+[02-Oct-2025 02:52:40 Europe/Berlin] Request Method: GET
+[02-Oct-2025 02:52:40 Europe/Berlin] Content Type: Not set
+[02-Oct-2025 02:52:40 Europe/Berlin] === _FILES array ===
+[02-Oct-2025 02:52:40 Europe/Berlin] Array
+(
+)
+
+[02-Oct-2025 02:52:40 Europe/Berlin] === _POST array ===
+[02-Oct-2025 02:52:40 Europe/Berlin] Array
+(
+)
+
+[02-Oct-2025 02:52:40 Europe/Berlin] === _SESSION array ===
+[02-Oct-2025 02:52:40 Europe/Berlin] Array
+(
+    [user_id] => 3
+    [username] => johndoegaerg
+    [email] => mkulima21@gmail.com
+    [role] => farmer
+    [logged_in] => 1
+    [theme] => dark
+)
+
+[02-Oct-2025 02:52:40 Europe/Berlin] === _SERVER relevant entries ===
+[02-Oct-2025 02:52:40 Europe/Berlin] Array
+(
+    [CONTENT_TYPE] => Not set
+    [CONTENT_LENGTH] => Not set
+    [REQUEST_METHOD] => GET
+    [HTTP_REFERER] => http://localhost/apro/agritech/pages/upload.php
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+)
+
+[02-Oct-2025 02:52:40 Europe/Berlin] ERROR: Not a POST request
+[02-Oct-2025 02:53:04 Europe/Berlin] === ANALYZE.PHP STARTED ===
+[02-Oct-2025 02:53:04 Europe/Berlin] POST data: Array
+(
+)
+
+[02-Oct-2025 02:53:04 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Oct-2025 02:53:04 Europe/Berlin] ERROR: No plant_image uploaded or temporary file missing
+[02-Oct-2025 02:53:18 Europe/Berlin] === ANALYZE.PHP STARTED ===
+[02-Oct-2025 02:53:18 Europe/Berlin] POST data: Array
+(
+    [user_id] => 3
+)
+
+[02-Oct-2025 02:53:18 Europe/Berlin] FILES data: Array
+(
+    [plant_image] => Array
+        (
+            [name] => tr.jpg
+            [full_path] => tr.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php6AEE.tmp
+            [error] => 0
+            [size] => 30037
+        )
+
+)
+
+[02-Oct-2025 02:53:18 Europe/Berlin] File details - Name: tr.jpg, Size: 30037, Error: 0, Type: image/jpeg
+[02-Oct-2025 02:53:18 Europe/Berlin] Detected MIME type: image/jpeg
+[02-Oct-2025 02:53:18 Europe/Berlin] Image info: Array
+(
+    [0] => 289
+    [1] => 275
+    [2] => 2
+    [3] => width="289" height="275"
+    [bits] => 8
+    [channels] => 3
+    [mime] => image/jpeg
+)
+
+[02-Oct-2025 02:53:18 Europe/Berlin] Attempting to move file to: C:\xampp\htdocs\apro\agritech\api/../assets/images/uploads/68ddccfeefe51_tr.jpg
+[02-Oct-2025 02:53:18 Europe/Berlin] File successfully moved to: C:\xampp\htdocs\apro\agritech\api/../assets/images/uploads/68ddccfeefe51_tr.jpg
+[02-Oct-2025 02:53:19 Europe/Berlin] Using local diagnosis: Leaf Spot
+[02-Oct-2025 02:53:19 Europe/Berlin] Using local diagnosis: Leaf Spot
+[02-Oct-2025 02:53:19 Europe/Berlin] Saving to database: Leaf Spot (confidence: 0.87)
+[02-Oct-2025 02:53:19 Europe/Berlin] Diagnosis saved successfully with ID: 11
+[02-Oct-2025 02:53:19 Europe/Berlin] === ANALYZE.PHP STARTED ===
+[02-Oct-2025 02:53:19 Europe/Berlin] POST data: Array
+(
+)
+
+[02-Oct-2025 02:53:19 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Oct-2025 02:53:19 Europe/Berlin] ERROR: No plant_image uploaded or temporary file missing
