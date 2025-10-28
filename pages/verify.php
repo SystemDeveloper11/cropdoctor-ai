@@ -5,7 +5,7 @@ require_once __DIR__ . '/../includes/mailer.php';
 
 $message = '';
 $email_for_otp = htmlspecialchars($_GET['email'] ?? '');
-$verification_successful = false;
+$verification_successful = false; 
 
 // Function to set user as verified and clear tokens/OTP
 function verifyUser($conn, $user_id) {
