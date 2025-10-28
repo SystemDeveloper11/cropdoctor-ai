@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_id'])) {
     header('HTTP/1.1 401 Unauthorized');
     echo json_encode(['success' => false, 'error' => 'Not logged in']);
     exit();
-}
+} 
 
 $last_id = isset($_GET['last_id']) ? intval($_GET['last_id']) : 0;
 
