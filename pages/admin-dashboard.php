@@ -3,7 +3,7 @@ require_once __DIR__ . '/../includes/header.php';
 require_once __DIR__ . '/../includes/auth.php';
 
 // Ensure only admins can access this page
-requireAdmin();
+requireAdmin(); 
 
 // Fetch total number of users
 $sql_users = "SELECT COUNT(*) AS total_users FROM users";
