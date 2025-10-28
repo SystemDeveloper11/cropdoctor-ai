@@ -5,7 +5,7 @@ require_once __DIR__ . '/../includes/auth.php';
 requireLogin();
 
 $user_id = $_SESSION['user_id'];
-$message = '';
+$message = ''; 
 $error = '';
 
 // Fetch current user information with profile data
