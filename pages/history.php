@@ -4,7 +4,7 @@ require_once __DIR__ . '/../includes/auth.php';
 
 requireLogin();
 
-$user_id = $_SESSION['user_id'];
+$user_id = $_SESSION['user_id']; 
 
 // Get filter parameters
 $filter_disease = $_GET['disease'] ?? '';
