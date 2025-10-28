@@ -6,7 +6,7 @@ CropDoctor AI is an intelligent agricultural assistant that helps farmers identi
 
 ## ✨ Features
 
-### 🔍 AI-Powered Disease Detection
+### 🔍 CropDoctor AI-Powered Disease Detection
 - **Instant Analysis**: Upload plant images for real-time disease identification using Kisii Google AI Model
 - **High Accuracy**: Advanced machine learning models with confidence scoring
 - **Comprehensive Database**: Recognition of 50+ common crop diseases
