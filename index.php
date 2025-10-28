@@ -1607,7 +1607,7 @@
                         <li><a href="#"><i class="fas fa-chevron-right"></i> Blog</a></li>
                         <li><a href="#"><i class="fas fa-chevron-right"></i> FAQs</a></li>
                         <li><a href="./pages/support.php"><i class="fas fa-chevron-right"></i> Support</a></li>
-                        <li><a href="./pages/dev.php"><i class="fas fa-chevron-right"></i> Developer</a></li>
+                       <!-- <li><a href="./pages/dev.php"><i class="fas fa-chevron-right"></i> Developer</a></li>-->
                     </ul>
                 </div>
 
@@ -1624,7 +1624,7 @@
 
             </div>
             <div class="copyright">
-                <p>&copy; 2023 CropDoctor AI. All rights reserved.</p>
+                <p>&copy; 2025 CropDoctor AI. All rights reserved.</p>
             </div>
         </div>
     </footer>
