@@ -6,7 +6,7 @@ require_once __DIR__ . '/../includes/auth.php';
 requireLogin();
 
 // Get user's recent uploads for reference
-$user_id = $_SESSION['user_id'];
+$user_id = $_SESSION['user_id']; 
 $recent_uploads_sql = "SELECT image_path, disease_name, confidence, diagnosed_at FROM diagnoses WHERE user_id = ? ORDER BY diagnosed_at DESC LIMIT 3";
 $stmt = $conn->prepare($recent_uploads_sql);
 $stmt->bind_param("i", $user_id);
