@@ -6,7 +6,7 @@ requireLogin();
 
 $diagnosis_id = $_GET['id'] ?? 0;
 $diagnosis = null;
-
+ 
 if ($diagnosis_id > 0) {
     $user_id = $_SESSION['user_id'];
     $sql = "SELECT * FROM diagnoses WHERE id = ? AND user_id = ?";
