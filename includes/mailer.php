@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\Exception;
 
 // Load PHPMailer classes from Composer
 require_once __DIR__ . '/../vendor/autoload.php';
-
+ 
 // Function to send a diagnosis email
 function sendDiagnosisEmail($recipientEmail, $diagnosis) {
     $mail = new PHPMailer(true);
