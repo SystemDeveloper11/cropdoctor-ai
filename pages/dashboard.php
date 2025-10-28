@@ -10,7 +10,7 @@ $username = $_SESSION['username'];
 // Fetch the most recent diagnoses for the current user
 $sql = "SELECT * FROM diagnoses WHERE user_id = ? ORDER BY diagnosed_at DESC LIMIT 5";
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("i", $user_id);
+$stmt->bind_param("i", $user_id); 
 $stmt->execute();
 $result = $stmt->get_result();
 $diagnoses = $result->fetch_all(MYSQLI_ASSOC);
