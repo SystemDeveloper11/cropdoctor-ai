@@ -6,7 +6,7 @@ require_once __DIR__ . '/../config/config.php';
 if (!isset($_SESSION['user_id'])) {
     header('HTTP/1.1 401 Unauthorized');
     exit();
-}
+} 
 
 // Get online users (users active in last 5 minutes) - FIXED QUERY
 $online_time_threshold = date('Y-m-d H:i:s', strtotime('-5 minutes'));
